@@ -1,0 +1,5 @@
+name: muffin-aws-kubectl
+description: "This action creates a docker container with kubectl and aws cli available for AWS EKS"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
